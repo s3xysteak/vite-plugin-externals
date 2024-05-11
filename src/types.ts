@@ -1,4 +1,3 @@
-
 import { TransformPluginContext } from 'rollup'
 import { SourceMapOptions } from 'magic-string'
 import type { Plugin } from 'vite'
