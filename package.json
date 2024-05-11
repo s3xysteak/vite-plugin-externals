@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-externals",
+  "name": "@s3xysteak/vite-plugin-externals",
   "version": "0.6.2",
   "description": "externals plugin for vite",
   "author": "crcong",
@@ -43,6 +43,7 @@
     "@types/node": "^17.0.45",
     "@types/ws": "^8.2.2",
     "bumpp": "^7.1.1",
+    "consola": "^3.2.3",
     "eslint": "^8.0.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.51.2",
