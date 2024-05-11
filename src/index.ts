@@ -122,7 +122,8 @@ export function viteExternalsPlugin(externals: Externals = {}, userOptions: User
 
           const raw = code.substring(statementStart, statementEnd)
           const newImportStr = transformImports(raw, externalValue, transformModuleName)
-          s.overwrite(statementStart, statementEnd, newImportStr)
+          s.overwrite(statementStart, statementEnd, '')
+          s.appendLeft(0, newImportStr)
         })
       } catch (error) {
         hasError = true
